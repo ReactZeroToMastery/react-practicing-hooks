@@ -8,6 +8,8 @@ function reducer(state = initialState, action) {
       return {
         text: action.data
       };
+      default : 
+      return state;
   }
 }
 
