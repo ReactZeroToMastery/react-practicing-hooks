@@ -6,7 +6,7 @@ function reducer(state = initialState, action) {
   switch (action.type) {
     case "UPDATETEXT":
       return {
-        text: action.text
+        text: action.data
       };
   }
 }
