@@ -11,7 +11,7 @@ const ReactRedux = () => {
 
   return (
     <div onClick={() => dispatch({ type: "UPDATETEXT", data: "NEW TEXT" })}>
-      {text}
+      {text === '' ? 'somevalue' : text}
     </div>
   );
 };
